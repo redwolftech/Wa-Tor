@@ -1,0 +1,106 @@
+﻿html, body, form {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* fill height of page */
+    max-width: none;
+}
+
+body {
+    font: 16px/normal "Arial", sans-serif; /* base font */
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #7f3b58; /* plum */
+    cursor: default;
+}
+
+.crtitle {
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.crdesc {
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.frtitle {
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.imagecell {
+    text-align: center;
+}
+
+.speedcell {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.radiogroup {
+    border: 0px;
+}
+
+.buttonscell {
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.disbutton {
+    text-align: center;
+    line-height: 28px;
+    background-color: #f0f0f0;
+}
+
+a.disbutton:link {
+    color: white;
+    text-decoration: none;
+}
+
+.mainbutton {
+    text-align: center;
+    line-height: 28px;
+    background-color: #645a72;
+}
+
+a.mainbutton:link {
+    color: white;
+    text-decoration: none;
+}
+
+.uploadmsg {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.uploadcell {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.uploadbtn {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.errormsg {
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 700;
+    color: crimson;
+}
